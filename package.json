@@ -1,6 +1,6 @@
 {
   "name": "@typeofweb/eslint-plugin",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "sideEffects": false,
   "repository": "git://github.com/typeofweb/eslint-plugin",
   "bugs": {
