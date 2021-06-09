@@ -1,1 +1,1 @@
-# @typeofweb/eslint-config-typeofweb
+# @typeofweb/eslint-plugin-typeofweb
