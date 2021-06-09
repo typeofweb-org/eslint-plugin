@@ -8,7 +8,7 @@ module.exports = {
     "sourceType": "module",
     "ecmaVersion": 2021
   },
-  "plugins": ["functional", "@typescript-eslint", "unicorn"],
+  "plugins": ["functional", "@typescript-eslint", "unicorn", "eslint-comments"],
   "extends": [
     "prettier",
     "plugin:import/errors",
