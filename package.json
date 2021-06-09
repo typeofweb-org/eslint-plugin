@@ -1,6 +1,6 @@
 {
   "name": "@typeofweb/eslint-typeofweb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "sideEffects": false,
   "repository": "git://github.com/typeofweb/eslint-typeofweb",
