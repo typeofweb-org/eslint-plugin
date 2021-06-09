@@ -1,0 +1,32 @@
+{
+  "name": "@typeofweb/eslint-typeofweb",
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "repository": "git://github.com/typeofweb/eslint-typeofweb",
+  "bugs": {
+    "url": "https://github.com/typeofweb/eslint-typeofweb/issues"
+  },
+  "homepage": "https://github.com/typeofweb/eslint-typeofweb#readme",
+  "author": "Michał Miszczyszyn - Type of Web <hi@typeofweb.com> (https://typeofweb.com/)",
+  "license": "MIT",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "typescript",
+    "eslint"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-functional": "^3.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-unicorn": "^33.0.1",
+    "eslint": "^7.28.0"
+  }
+}
