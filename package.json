@@ -1,11 +1,11 @@
 {
-  "name": "@typeofweb/eslint-typeofweb",
+  "name": "@typeofweb/eslint-config-typeofweb",
   "version": "0.1.2",
   "type": "module",
   "sideEffects": false,
-  "repository": "git://github.com/typeofweb/eslint-typeofweb",
+  "repository": "git://github.com/typeofweb/eslint-config-typeofweb",
   "bugs": {
-    "url": "https://github.com/typeofweb/eslint-typeofweb/issues"
+    "url": "https://github.com/typeofweb/eslint-config-typeofweb/issues"
   },
   "main": "index.js",
   "files": [
@@ -14,7 +14,7 @@
     "README.md",
     "index.js"
   ],
-  "homepage": "https://github.com/typeofweb/eslint-typeofweb#readme",
+  "homepage": "https://github.com/typeofweb/eslint-config-typeofweb#readme",
   "author": "Michał Miszczyszyn - Type of Web <hi@typeofweb.com> (https://typeofweb.com/)",
   "license": "MIT",
   "engines": {
@@ -25,7 +25,8 @@
   },
   "keywords": [
     "typescript",
-    "eslint"
+    "eslint",
+    "eslintplugin"
   ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.26.1",
