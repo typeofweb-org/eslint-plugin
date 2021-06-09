@@ -1,6 +1,6 @@
 {
   "name": "@typeofweb/eslint-typeofweb",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "sideEffects": false,
   "repository": "git://github.com/typeofweb/eslint-typeofweb",
@@ -30,10 +30,10 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-functional": "^3.2.1",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-unicorn": "^33.0.1",
-    "eslint": "^7.28.0"
+    "eslint-plugin-unicorn": "^33.0.1"
   }
 }
