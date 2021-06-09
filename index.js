@@ -1,4 +1,4 @@
-module.exports = {
+const recommended = {
   "root": true,
   "parser": "@typescript-eslint/parser",
   "env": {
@@ -55,4 +55,8 @@ module.exports = {
     "prefer-const": "error",
     "require-await": "error",
   },
+}
+
+exports.configs = {
+  recommended,
 }
