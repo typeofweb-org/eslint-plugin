@@ -1,10 +1,10 @@
 {
-  "name": "@typeofweb/eslint-plugin-typeofweb",
+  "name": "@typeofweb/eslint-plugin",
   "version": "0.1.8",
   "sideEffects": false,
-  "repository": "git://github.com/typeofweb/eslint-plugin-typeofweb",
+  "repository": "git://github.com/typeofweb/eslint-plugin",
   "bugs": {
-    "url": "https://github.com/typeofweb/eslint-plugin-typeofweb/issues"
+    "url": "https://github.com/typeofweb/eslint-plugin/issues"
   },
   "main": "index.js",
   "files": [
@@ -13,7 +13,7 @@
     "README.md",
     "index.js"
   ],
-  "homepage": "https://github.com/typeofweb/eslint-plugin-typeofweb#readme",
+  "homepage": "https://github.com/typeofweb/eslint-plugin#readme",
   "author": "Michał Miszczyszyn - Type of Web <hi@typeofweb.com> (https://typeofweb.com/)",
   "license": "MIT",
   "engines": {
