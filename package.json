@@ -1,6 +1,6 @@
 {
   "name": "@typeofweb/eslint-config-typeofweb",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "sideEffects": false,
   "repository": "git://github.com/typeofweb/eslint-config-typeofweb",
   "bugs": {
