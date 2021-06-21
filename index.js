@@ -70,8 +70,10 @@ const recommended = {
   },
 };
 
-exports.configs = {
-  recommended,
+module.exports = {
+  configs: {
+    recommended,
+  },
   rules: {
     'capitalize-modules': CapitalizeModules,
   },
