@@ -61,20 +61,20 @@ const check =
       isRequire(node.init) &&
       !isCapitalized(node.id.name)
     ) {
-      context.report({ node, message: 'notCapitalized' });
+      context.report({ node, messageId: 'notCapitalized' });
     } else if (
       node.type === 'AssignmentExpression' &&
       isRequire(node.right) &&
       node.left.type === 'Identifier' &&
       !isCapitalized(node.left.name)
     ) {
-      context.report({ node, message: 'notCapitalized' });
+      context.report({ node, messageId: 'notCapitalized' });
     } else if (node.type === 'ImportDeclaration') {
       const notCapitalized = getNotCapitalizedImports(node);
       notCapitalized.forEach((node) =>
         context.report({
           node,
-          message: 'notCapitalized',
+          messageId: 'notCapitalized',
           fix: (fixer) => fixer.replaceTextRange([node.range[0], node.range[0] + 1], node.name.charAt(0).toUpperCase()),
         }),
       );
